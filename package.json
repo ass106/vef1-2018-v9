@@ -1,0 +1,22 @@
+{
+  "name": "v9",
+  "version": "1.0.0",
+  "description": "verkefni 9",
+  "main": "index.js",
+  "scripts": {
+    "initEslint": "eslint --init",
+    "test": "eslint --env browser,node scripts.js",
+    "testFix": "eslint scripts.js --fix",
+    "dev": "browser-sync start --server --files index.html styles.css scripts.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1"
+  }
+}
